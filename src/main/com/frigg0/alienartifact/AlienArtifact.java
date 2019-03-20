@@ -11,6 +11,7 @@ public class AlienArtifact implements CommandLineRunner {
         SpringApplication.run(AlienArtifact.class, args);
     }
 
+    @Override
     public void run(String... args){
         try {
             ManaDeckService manaDeckService = new ManaDeckService();
