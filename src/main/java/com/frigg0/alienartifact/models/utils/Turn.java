@@ -1,8 +1,10 @@
-package com.frigg0.alienartifact.models;
+package com.frigg0.alienartifact.models.utils;
 
 public class Turn {
+    /* Declaration */
     private int turn = 2;
 
+    /* Constructors */
     public Turn(int turn) {
         this.turn = turn;
     }
@@ -11,6 +13,7 @@ public class Turn {
         // empty constructor on purpose
     }
 
+    /* Getter and setter */
     public int getTurn() {
         return turn;
     }

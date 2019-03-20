@@ -1,4 +1,6 @@
-package com.frigg0.alienartifact.models;
+package com.frigg0.alienartifact.models.manaCard;
+
+import com.frigg0.alienartifact.models.utils.ManaType;
 
 public class ManaCard {
     // Declaration
