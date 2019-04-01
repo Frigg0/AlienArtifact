@@ -1,56 +1,224 @@
-2019-03-20 17:16:14 INFO  c.f.a.AlienArtifact:50 - 
- INFO  - Starting AlienArtifact on SP4-Thom with PID 6828 (C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact\target\classes started by wojty in C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact)
-2019-03-20 17:16:14 DEBUG c.f.a.AlienArtifact:53 - 
+2019-03-21 09:41:32 INFO  c.f.a.AlienArtifact:50 - 
+ INFO  - Starting AlienArtifact on SP4-Thom with PID 7672 (C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact\target\classes started by wojty in C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact)
+2019-03-21 09:41:32 DEBUG c.f.a.AlienArtifact:53 - 
  DEBUG - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2019-03-20 17:16:14 INFO  c.f.a.AlienArtifact:675 - 
+2019-03-21 09:41:32 INFO  c.f.a.AlienArtifact:675 - 
  INFO  - No active profile set, falling back to default profiles: default
-2019-03-20 17:16:16 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - 
- INFO  - Bean !org.springframework.hateoas.config.HateoasConfiguration! of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7a199968] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:16:16 INFO  o.s.b.w.e.t.TomcatWebServer:90 - 
+2019-03-21 09:41:33 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - 
+ INFO  - Bean !org.springframework.hateoas.config.HateoasConfiguration! of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d0ce083c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 09:41:34 INFO  o.s.b.w.e.t.TomcatWebServer:90 - 
  INFO  - Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:16:16 INFO  o.a.c.c.StandardService:173 - 
+2019-03-21 09:41:34 INFO  o.a.c.c.StandardService:173 - 
  INFO  - Starting service [Tomcat]
-2019-03-20 17:16:16 INFO  o.a.c.c.StandardEngine:173 - 
+2019-03-21 09:41:34 INFO  o.a.c.c.StandardEngine:173 - 
  INFO  - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-03-20 17:16:16 INFO  o.a.c.c.AprLifecycleListener:173 - 
+2019-03-21 09:41:34 INFO  o.a.c.c.AprLifecycleListener:173 - 
  INFO  - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\System32\OpenSSH\;C:\Users\wojty\AppData\Local\Microsoft\WindowsApps;;.]
-2019-03-20 17:16:16 INFO  o.a.c.c.C.[.[.[/]:173 - 
+2019-03-21 09:41:34 INFO  o.a.c.c.C.[.[.[/]:173 - 
  INFO  - Initializing Spring embedded WebApplicationContext
-2019-03-20 17:16:16 INFO  o.s.w.c.ContextLoader:296 - 
- INFO  - Root WebApplicationContext: initialization completed in 2078 ms
-2019-03-20 17:16:17 INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - 
+2019-03-21 09:41:34 INFO  o.s.w.c.ContextLoader:296 - 
+ INFO  - Root WebApplicationContext: initialization completed in 2044 ms
+2019-03-21 09:41:35 INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - 
  INFO  - Initializing ExecutorService !applicationTaskExecutor!
-2019-03-20 17:16:18 INFO  o.s.b.w.e.t.TomcatWebServer:204 - 
+2019-03-21 09:41:35 INFO  o.s.b.w.e.t.TomcatWebServer:204 - 
  INFO  - Tomcat started on port(s): 8080 (http) with context path !!
-2019-03-20 17:16:18 INFO  c.f.a.AlienArtifact:59 - 
- INFO  - Started AlienArtifact in 4.175 seconds (JVM running for 7.737)
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+2019-03-21 09:41:35 INFO  c.f.a.AlienArtifact:59 - 
+ INFO  - Started AlienArtifact in 4.165 seconds (JVM running for 5.747)
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:78 - 
  DEBUG - What turn are we: 2
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:86 - 
  DEBUG - Deck size before picking: 4
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:90 - 
- DEBUG - Random index generated to draw: 1
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 3
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:78 - 
  DEBUG - What turn are we: 2
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:86 - 
  DEBUG - Deck size before picking: 3
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:90 - 
- DEBUG - Random index generated to draw: 1
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 2
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:78 - 
  DEBUG - What turn are we: 2
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:86 - 
  DEBUG - Deck size before picking: 2
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:90 - 
  DEBUG - Random index generated to draw: 1
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:78 - 
  DEBUG - What turn are we: 2
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:86 - 
  DEBUG - Deck size before picking: 1
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:90 - 
  DEBUG - Random index generated to draw: 0
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:78 - 
  DEBUG - What turn are we: 1
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:86 - 
  DEBUG - Deck size before picking: 4
-2019-03-20 17:16:18 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+2019-03-21 09:41:35 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 3
+2019-03-21 10:16:36 INFO  c.f.a.AlienArtifact:50 - 
+ INFO  - Starting AlienArtifact on SP4-Thom with PID 2092 (C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact\target\classes started by wojty in C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact)
+2019-03-21 10:16:36 DEBUG c.f.a.AlienArtifact:53 - 
+ DEBUG - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-21 10:16:36 INFO  c.f.a.AlienArtifact:675 - 
+ INFO  - No active profile set, falling back to default profiles: default
+2019-03-21 10:16:38 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - 
+ INFO  - Bean !org.springframework.hateoas.config.HateoasConfiguration! of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a105d8cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 10:16:38 INFO  o.s.b.w.e.t.TomcatWebServer:90 - 
+ INFO  - Tomcat initialized with port(s): 8080 (http)
+2019-03-21 10:16:38 INFO  o.a.c.c.StandardService:173 - 
+ INFO  - Starting service [Tomcat]
+2019-03-21 10:16:38 INFO  o.a.c.c.StandardEngine:173 - 
+ INFO  - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-21 10:16:38 INFO  o.a.c.c.AprLifecycleListener:173 - 
+ INFO  - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\System32\OpenSSH\;C:\Users\wojty\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-21 10:16:38 INFO  o.a.c.c.C.[.[.[/]:173 - 
+ INFO  - Initializing Spring embedded WebApplicationContext
+2019-03-21 10:16:38 INFO  o.s.w.c.ContextLoader:296 - 
+ INFO  - Root WebApplicationContext: initialization completed in 1857 ms
+2019-03-21 10:16:39 INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - 
+ INFO  - Initializing ExecutorService !applicationTaskExecutor!
+2019-03-21 10:16:39 INFO  o.s.b.w.e.t.TomcatWebServer:204 - 
+ INFO  - Tomcat started on port(s): 8080 (http) with context path !!
+2019-03-21 10:16:39 INFO  c.f.a.AlienArtifact:59 - 
+ INFO  - Started AlienArtifact in 3.99 seconds (JVM running for 5.232)
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+ DEBUG - What turn are we: 2
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+ DEBUG - Deck size before picking: 4
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:90 - 
  DEBUG - Random index generated to draw: 0
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+ DEBUG - What turn are we: 2
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+ DEBUG - Deck size before picking: 3
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 1
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+ DEBUG - What turn are we: 2
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+ DEBUG - Deck size before picking: 2
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 0
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+ DEBUG - What turn are we: 2
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+ DEBUG - Deck size before picking: 1
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 0
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:78 - 
+ DEBUG - What turn are we: 1
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:86 - 
+ DEBUG - Deck size before picking: 4
+2019-03-21 10:16:40 DEBUG c.f.a.s.m.ManaDeckService:90 - 
+ DEBUG - Random index generated to draw: 2
+2019-03-21 12:12:11 INFO  oui:50 - 
+ INFO  - Starting oui on SP4-Thom with PID 19260 (C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact\target\classes started by wojty in C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact)
+2019-03-21 12:12:11 INFO  oui:675 - 
+ INFO  - No active profile set, falling back to default profiles: default
+2019-03-21 12:12:11 WARN  o.s.b.c.ConfigurationWarningsApplicationContextInitializer:108 - 
+ WARN  - !!!!** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.!!!!
+2019-03-21 12:12:25 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:554 - 
+ WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: URL [jar:file:/C:/Users/wojty/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration.class]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+2019-03-21 12:12:25 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+ INFO  - !!!!Error starting ApplicationContext. To display the conditions report re-run your application with !debug! enabled.
+2019-03-21 12:12:25 ERROR o.s.b.SpringApplication:858 - 
+ ERROR - Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: URL [jar:file:/C:/Users/wojty/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration.class]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:454) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:275) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at oui.main(oui.java:8) [classes/:na]
+Caused by: java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:55) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:88) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:71) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isConditionMatch(ClassPathScanningCandidateComponentProvider.java:515) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isCandidateComponent(ClassPathScanningCandidateComponentProvider.java:498) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:431) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.<clinit>(EmbeddedDatabaseConnection.java:50) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseCondition.getMatchOutcome(DataSourceAutoConfiguration.java:148) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_161]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_161]
+	... 29 common frames omitted
+
+2019-03-21 12:22:57 INFO  AlienArtifact:50 - 
+ INFO  - Starting AlienArtifact on SP4-Thom with PID 10772 (C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact\target\classes started by wojty in C:\Users\wojty\Desktop\TestJava\AlienArtifact2\AlienArtifact)
+2019-03-21 12:22:57 INFO  AlienArtifact:675 - 
+ INFO  - No active profile set, falling back to default profiles: default
+2019-03-21 12:22:57 WARN  o.s.b.c.ConfigurationWarningsApplicationContextInitializer:108 - 
+ WARN  - !!!!** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.!!!!
+2019-03-21 12:23:10 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:554 - 
+ WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: URL [jar:file:/C:/Users/wojty/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration.class]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+2019-03-21 12:23:10 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+ INFO  - !!!!Error starting ApplicationContext. To display the conditions report re-run your application with !debug! enabled.
+2019-03-21 12:23:10 ERROR o.s.b.SpringApplication:858 - 
+ ERROR - Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: URL [jar:file:/C:/Users/wojty/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration.class]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:454) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:275) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at AlienArtifact.main(AlienArtifact.java:9) [classes/:na]
+Caused by: java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration due to org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:55) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:88) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:71) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isConditionMatch(ClassPathScanningCandidateComponentProvider.java:515) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isCandidateComponent(ClassPathScanningCandidateComponentProvider.java:498) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:431) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.<clinit>(EmbeddedDatabaseConnection.java:50) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseCondition.getMatchOutcome(DataSourceAutoConfiguration.java:148) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_161]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_161]
+	... 29 common frames omitted
+

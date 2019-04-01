@@ -1,4 +1,4 @@
-package com.frigg0.alienartifact.models.utils;
+package models.utils;
 
 public enum TypeCard {
     Exploration, Expansion, Extermination, Exploitation

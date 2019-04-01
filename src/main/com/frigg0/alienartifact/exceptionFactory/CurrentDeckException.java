@@ -1,4 +1,4 @@
-package com.frigg0.alienartifact.exceptionFactory;
+package exceptionFactory;
 
 public class CurrentDeckException extends Exception {
     public CurrentDeckException(String errorMsg){

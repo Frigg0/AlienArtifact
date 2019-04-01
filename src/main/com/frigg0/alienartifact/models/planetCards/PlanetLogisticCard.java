@@ -1,4 +1,4 @@
-package com.frigg0.alienartifact.models.planetCards;
+package models.planetCards;
 
 import com.frigg0.alienartifact.models.utils.ManaType;
 import com.frigg0.alienartifact.models.utils.TypeCard;

@@ -1,9 +1,9 @@
-package com.frigg0.alienartifact.services.manaDeck;
+package services.manaDeck;
 
-import com.frigg0.alienartifact.exceptionFactory.CurrentDeckException;
-import com.frigg0.alienartifact.models.manaCard.ManaCard;
-import com.frigg0.alienartifact.models.utils.ManaType;
-import com.frigg0.alienartifact.models.utils.Turn;
+import exceptionFactory.CurrentDeckException;
+import models.manaCard.ManaCard;
+import models.utils.ManaType;
+import models.utils.Turn;
 import org.springframework.stereotype.Service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -215,7 +215,8 @@ public class ManaDeckService {
 
     /* Methods */
     // Calling new Mana card constructor easily
-    private ManaCard createNewManaCard(int id, int number, Enum<ManaType> manaTypeTop, int manaTypeNumberTop, Enum<ManaType> manaTypeBot, int manaTypeNumberBot){
+    private ManaCard createNewManaCard(int id, int number, Enum<ManaType> manaTypeTop,
+                                       int manaTypeNumberTop, Enum<ManaType> manaTypeBot, int manaTypeNumberBot){
         return new ManaCard(id, number, manaTypeTop, manaTypeNumberTop, manaTypeBot, manaTypeNumberBot);
     }
 

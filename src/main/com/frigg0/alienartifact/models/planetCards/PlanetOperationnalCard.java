@@ -1,6 +1,7 @@
-package com.frigg0.alienartifact.models.planetCards;
+package models.planetCards;
 
-import com.frigg0.alienartifact.models.utils.TypeCard;
+
+import models.utils.TypeCard;
 
 public class PlanetOperationnalCard {
     /* Declarations */
